@@ -1,0 +1,12 @@
+sudo useradd dev -m
+sudo passwd dev 
+
+
+
+//switch user command
+
+su dev
+
+
+
+sudo cat /etc/group
