@@ -15,7 +15,7 @@ docker buildx build --platform=darwin .
 ```
 
 ```
-docker buildx build --platform=linux/arm64 -t my-docker-imgage .
+docker buildx build --platform=linux/arm64 -t my-docker-image .
 ```
 
 
