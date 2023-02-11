@@ -27,6 +27,18 @@
 
 ansible servers -m ping
 ansible servers -a "df -h"
+ansible servers -a "uptime"
+
+
+```
+
+
+
+```
+
+ansible 
+
+-m v/s -a
 
 
 ```
