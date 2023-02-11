@@ -1,0 +1,6 @@
+
+
+```
+sudo service nginx status
+
+```
