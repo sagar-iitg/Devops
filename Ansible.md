@@ -17,7 +17,34 @@
  cat /etc/ansible/hosts
  
 ```
-
+# pem file in master
 ```
  scp -i "ansible-all-access-key.pem" ansible-all-access-key.pem ubuntu@ec2-44-201-8-225.compute-1.amazonaws.com:/home/ubuntu/.ssh
+```
+
+
+```
+
+ansible servers -m ping
+ansible servers -a "df -h"
+
+
+```
+
+
+
+# ansible configurations
+
+```
+
+
+[servers]
+server_1 ansible_host=34.20.63.13
+server_2 ansible_host=54.209.157.26
+server_3 ansible_host=54.17.13.11
+
+[servers:vars]
+ansible_python_interpreter=/usr/bin/python3
+ansible_ssh_private_key_file=/home/ubuntu/.ssh/ansible-all-access.pem
+
 ```
