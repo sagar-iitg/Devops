@@ -25,7 +25,12 @@
 
 ```
 
-ansible servers -m ping
+ ansible servers -m ping
+ ansible -i prod_inv servers -m ping
+ ansible -i /home/ubuntu/ansible/inventories/prod_inv servers -m ping
+ ansible -i /etc/ansible/hosts servers -m ping
+ 
+ 
 ansible servers -a "df -h"
 ansible servers -a "uptime"
 
