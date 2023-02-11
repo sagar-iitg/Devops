@@ -17,9 +17,19 @@
  cat /etc/ansible/hosts
  
 ```
-# pem file in master
+
+
+# local to virtual machine
+
 ```
  scp -i "ansible-all-access-key.pem" ansible-all-access-key.pem ubuntu@ec2-44-201-8-225.compute-1.amazonaws.com:/home/ubuntu/.ssh
+
+```
+
+
+# Virtual machine to local 
+```
+scp -i "ansible-all-access-key.pem" ubuntu@ec2-44-201-8-225.compute-1.amazonaws.com:/home/ubuntu/ansible/date.yml .
 ```
 
 
