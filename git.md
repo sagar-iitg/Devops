@@ -47,17 +47,27 @@ git init
 
 
 
+```
+ git add --a
+ git add .
+```
 
-9. git add --a
-10. git add .
+```
+git commit -m "msg"
+git log
+git clone https://github.com/sagar-iitg/git-learning.git git-learning
+```
 
-11. git commit -m "msg"
-12. git log
-13. git clone https://github.com/sagar-iitg/git-learning.git git-learning
+
 #### comparing working directory to staging area
-14. git diff 
+
+```
+git diff 
+```
 #### comparing previous commit to current staging area(green color) --> modified
-15. git diff --staged
+```
+git diff --staged
+```
 
 ### skipping staging area
 
