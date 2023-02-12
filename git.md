@@ -76,6 +76,10 @@ git init
 
 ### default branch is master
 
+
+```
+
+
 24. git log
 25. git log -p
 26. git log -p -3
@@ -86,13 +90,24 @@ git init
 31. git log --since==2.days
 32. git log --pretty=format:"%h --%an"
 33. git log --pretty=format:"%h --%ae"
+
+```
+
+
+
 ### unstaged file
-34. git restore --staged <file>
-35. git checkout -- <file>
-36. git checkout -f
-37. git remote  
-38. git remote add origin git@github.com:sagar-iitg/git-learning.git
-39. git remote -v
+
+
+```
+git restore --staged <file>
+git checkout -- <file>
+git checkout -f
+git remote  
+git remote add origin git@github.com:sagar-iitg/git-learning.git
+git remote -v
+
+```
+
 
 
 
@@ -103,14 +118,14 @@ git init
 
  git config --global alias.st status 
  git config --global alias.last 'log -p -1'
-git config --global alias.unstage 'restore --staged --'
-git branch
+ git config --global alias.unstage 'restore --staged --'
+ git branch
  git config --global 
  git stash
-git stash pop
+ git stash pop
  git checkout -b f2
 
- 
+
 ```
 
 
