@@ -93,21 +93,45 @@ git init
 37. git remote  
 38. git remote add origin git@github.com:sagar-iitg/git-learning.git
 39. git remote -v
+
+
+
+
 ### git alias
-40. git config --global alias.st status 
-41. git config --global alias.last 'log -p -1'
-42. git config --global alias.unstage 'restore --staged --'
-43. git branch
-44. git config --global 
-45. git stash
-46. git stash pop
-47. git checkout -b f2
+
+```
+
+ git config --global alias.st status 
+ git config --global alias.last 'log -p -1'
+git config --global alias.unstage 'restore --staged --'
+git branch
+ git config --global 
+ git stash
+git stash pop
+ git checkout -b f2
+
+ 
+```
+
+
+
 ### delete loccal branches
-48. git branch -d f1
+
+```
+ git branch -d f1
+
+```
+
+
+
+
 ### delete remote branch
-49. git push origin --delete f1
-50. git push origin bugfix:mybugfix
-51. 
+```
+
+git push origin --delete f1
+git push origin bugfix:mybugfix
+
+```
 
 
 ### Branch Management
