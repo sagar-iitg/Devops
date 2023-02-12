@@ -46,7 +46,7 @@ git init
 #### --a means all
 
 
-```
+
 
 9. git add --a
 10. git add .
@@ -58,15 +58,32 @@ git init
 14. git diff 
 #### comparing previous commit to current staging area(green color) --> modified
 15. git diff --staged
+
 ### skipping staging area
-16. git commit -am "msg"
+
+```
+ git commit -am "msg"
+```
+
+
+
 ### How do I get the Git commit count?
-17. git rev-list --count HEAD
-18. git rev-list --count master 
+
+```
+git rev-list --count HEAD
+git rev-list --count master 
+```
+
+
+
 ### To get the commit count across all branches:
+
+```
 19. git rev-list --all --count 
 20. git mv file.txt info.txt
 21. git rm new1.txt
+```
+
 
 
 
