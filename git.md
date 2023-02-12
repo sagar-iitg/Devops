@@ -111,21 +111,28 @@ git init
 
 
 ### Branch Management
-1. git branch
+
+
+
+
+```
+
+
+ git branch
 * master
   develop
   system
 
-2. git branch -v
+git branch -v
 ### already merged branches
-3. git branch --merged
+git branch --merged
 ### not already merged branches  
-4. git branch --no-merged
-5. git branch -d develop
-6. git branch -D develop
-7.  
-8. 
+git branch --no-merged
+git branch -d develop
+git branch -D develop
 
+
+```
 
 
 
