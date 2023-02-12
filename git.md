@@ -44,6 +44,10 @@ git init
 ```
 
 #### --a means all
+
+
+```
+
 9. git add --a
 10. git add .
 
@@ -66,6 +70,10 @@ git init
 ### if previously git is tracking file then command is to untrack file is:
 22. git rm --cached file.txt
 23. git rm --cached -f file.txt
+
+
+```
+
 ### default branch is master
 
 24. git log
@@ -122,6 +130,10 @@ git init
 
 
 ## clear git repository
-1. rm -rf .git
 
+
+```
+rm -rf .git
+
+```
 
