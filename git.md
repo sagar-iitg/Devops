@@ -2,11 +2,25 @@
 ### Most Used
 
 ```
-   git init
+
+echo "# learning-stuff " >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sagar-iitg/terraform-learning.git
+git push -u origin main
 
 
 ```
 
+
+```
+git remote add origin https://github.com/sagar-iitg/terraform-learning.git
+git branch -M main
+git push -u origin main
+
+```
 
 ## How to use .gitignore
 
