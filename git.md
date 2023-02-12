@@ -3,7 +3,7 @@
 
 ```
    git init
-   
+
 
 ```
 
@@ -226,7 +226,7 @@ git branch -D develop
 
 
 
-## clear git repository
+## remove/clear git repository
 
 
 ```
