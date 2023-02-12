@@ -124,9 +124,18 @@ git init
   system
 
 git branch -v
+```
+
+
+
 ### already merged branches
+```
 git branch --merged
+```
+
 ### not already merged branches  
+
+```
 git branch --no-merged
 git branch -d develop
 git branch -D develop
