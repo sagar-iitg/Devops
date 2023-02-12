@@ -1,6 +1,4 @@
 
-## Exmaple 1
-
 
 ### show_date_time.sh
 
@@ -19,7 +17,6 @@ date | awk '{print $4}'
 ```
 
 
-## Exmaple 2
 ### variable.sh
 ```
 #!/bin/bash
@@ -30,3 +27,21 @@ echo "My name is: $name"
 
 ```
 
+### Print Hello World
+
+```
+#!/bin/bash
+echo "Hello World"
+
+```
+
+### directoryCreationAndchangeDirectory
+
+```
+
+cd /home/ubuntu/devops/myscript/
+mkdir new_folder
+cd new_folder
+touch sk.txt
+echo "hello sk.txt script" >> sk.txt
+```
