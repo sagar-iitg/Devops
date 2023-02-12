@@ -67,12 +67,18 @@ git init
 19. git rev-list --all --count 
 20. git mv file.txt info.txt
 21. git rm new1.txt
-### if previously git is tracking file then command is to untrack file is:
-22. git rm --cached file.txt
-23. git rm --cached -f file.txt
 
+
+
+### if previously git is tracking file then command is to untrack file is:
 
 ```
+git rm --cached file.txt
+git rm --cached -f file.txt
+
+```
+
+
 
 ### default branch is master
 
@@ -80,16 +86,16 @@ git init
 ```
 
 
-24. git log
-25. git log -p
-26. git log -p -3
-27. git log --stat
-28. git log --pretty=oneline
-29. git log --pretty=short
-30. git log --pretty=full
-31. git log --since==2.days
-32. git log --pretty=format:"%h --%an"
-33. git log --pretty=format:"%h --%ae"
+  git log
+  git log -p
+  git log -p -3
+  git log --stat
+  git log --pretty=oneline
+  git log --pretty=short
+  git log --pretty=full
+  git log --since==2.days
+  git log --pretty=format:"%h --%an"
+  git log --pretty=format:"%h --%ae"
 
 ```
 
