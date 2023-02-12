@@ -1,4 +1,13 @@
 
+### Most Used
+
+```
+   git init
+   
+
+```
+
+
 ## How to use .gitignore
 
 ###  ignore file error.log
