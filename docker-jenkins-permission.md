@@ -1,6 +1,10 @@
 ```
 
  sudo usermod -aG docker $USER
- sudo shutdownn -r now
+ sudo shutdown -r now
+sudo cat /etc/group
+
+sudo usermod -aG docker jenkins
+
 
 ```
